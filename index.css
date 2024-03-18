@@ -1,3 +1,7 @@
+:root {
+  --header-height: 80px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +18,9 @@ main {
 .header {
   width: 100vw;
   position: fixed;
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
 }
 
 .header-container {
@@ -95,4 +102,30 @@ main {
 .header-right .header-chat-button:hover {
   background-color: #ced4da;
   cursor: pointer;
+}
+
+.section0-below {
+  width: 100%;
+  display: flex;
+  min-width: 1100px;
+  position: relative;
+  top: var(--header-height);
+}
+
+.section0-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.section0-buttons {
+  all: unset;
+  background-color: #ff6f0f;
+  padding: 14px 16px;
+  border-radius: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.section0-buttons .section0-buttons-icons {
+  vertical-align: middle;
 }
