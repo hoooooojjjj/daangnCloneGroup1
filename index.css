@@ -9,3 +9,59 @@ main {
 
   align-items: center;
 }
+
+footer {
+  height: 629px;
+  padding-top: 10px;
+}
+
+#footer-footerHead {
+  border-top: 1px solid black;
+}
+
+#footer-footerSectionDiv {
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+}
+
+#footer-footerSection1 {
+  display: flex;
+  border-bottom: 1px solid gray;
+  justify-content: center;
+}
+
+#footer-footerSection2 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 8px;
+  height: 180px;
+}
+.footer-ul li {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+
+.footer-img {
+  width: 90px;
+  height: 25px;
+  border-radius: 5px;
+}
+#footer-Section2P {
+  font-size: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
