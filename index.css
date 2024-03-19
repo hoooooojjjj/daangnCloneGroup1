@@ -19,6 +19,7 @@ main {
   align-items: center;
 }
 
+
 footer {
   width: 100vw;
   height: 629px;
@@ -126,6 +127,7 @@ footer {
 .footer-a:hover {
   text-decoration: underline;
 }
+
 
 /* header */
 
