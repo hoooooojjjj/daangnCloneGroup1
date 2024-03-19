@@ -9,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 main {
@@ -26,6 +27,7 @@ footer {
 
 #footer-footerHead {
   border-top: 1px solid rgb(225, 218, 218);
+  max-height: 350px;
 }
 
 #footer-footerSectionDiv {
@@ -66,6 +68,9 @@ footer {
   width: 90px;
   height: 25px;
   border-radius: 5px;
+}
+.footer-img:hover {
+  filter: grayscale(100%);
 }
 #footer-Section2P {
   font-size: 8px;
@@ -113,6 +118,15 @@ footer {
   justify-content: start;
   color: darkgray;
 }
+.footer-a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-a:hover {
+  text-decoration: underline;
+}
+
 /* header */
 
 .header {
