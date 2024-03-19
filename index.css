@@ -96,3 +96,69 @@ main {
   background-color: #ced4da;
   cursor: pointer;
 }
+.section1 {
+  margin: auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  position: relative;
+}
+.section1-image {
+  display: inline-block;
+  overflow-clip-margin: content-box;
+}
+.section1-content {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section1-service-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff6f0f;
+  margin-bottom: 10px;
+  display: block;
+  margin-block: 0.55em;
+  margin-inline: 0px;
+}
+.section1-home-title {
+  font-size: 42px;
+  line-height: 57px;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 700;
+  margin-block-start: 0.83 em;
+  margin-block-end: 0.83 em;
+  letter-spacing: -0.015em;
+}
+.section1-service-desc {
+  font-weight: 400;
+  font-size: 20px;
+  color: #7c7c7c;
+  line-height: 30px;
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 1.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.section1-buttons {
+  background-color: #e9ecef;
+  color: #212529;
+  border-radius: 6px;
+  padding: 12px 1.4rem;
+  display: inline-block;
+  margin: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 23.76px;
+  font-weight: 700;
+  border: none;
+  text-align: middle;
+}
+
+.section1-buttons:hover {
+  background: #dee2e6;
+}
