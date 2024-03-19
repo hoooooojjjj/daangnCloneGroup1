@@ -12,11 +12,11 @@ main {
 
 footer {
   height: 629px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 #footer-footerHead {
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(225, 218, 218);
 }
 
 #footer-footerSectionDiv {
@@ -27,7 +27,6 @@ footer {
 
 #footer-footerSection1 {
   display: flex;
-  border-bottom: 1px solid gray;
   justify-content: center;
 }
 
@@ -50,8 +49,8 @@ footer {
   width: 100px;
   height: 30px;
   display: flex;
-  justify-content: center; /* 수평 가운데 정렬 */
-  align-items: center; /* 수직 가운데 정렬 */
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-img {
@@ -61,7 +60,47 @@ footer {
 }
 #footer-Section2P {
   font-size: 8px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 280px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(225, 218, 218);
+  line-height: 12px;
+  color: darkgray;
+}
+
+.footer-img1 {
+  border-top: 1px solid rgb(225, 218, 218);
+  padding-top: 10px;
+  width: 160px;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.footer-Section2img {
+  width: 280px;
+  height: 100px;
+}
+
+.footer-span {
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+#footer-Section2P2 {
+  font-size: 8px;
+  margin-top: 10px;
+  line-height: 12px;
+  margin: 0 auto;
+}
+
+#footer-Section2P2 p {
+  position: relative;
+  right: -163px;
+  width: 400px;
+  display: flex;
   justify-content: start;
+  color: darkgray;
 }
